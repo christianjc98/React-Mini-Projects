@@ -11,11 +11,15 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://christianjc98.github.io/React-Mini-Projects/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "fake-api": "json-server --watch src/api/db.json --port 5000"
   },
   "eslintConfig": {
     "extends": [
