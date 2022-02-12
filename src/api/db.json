@@ -1,0 +1,59 @@
+{
+  "personajes": [
+    {
+      "id": 1,
+      "name": "Monkey D. Luffy",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 2,
+      "name": "Roronoa Zoro",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 3,
+      "name": "Nami",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 4,
+      "name": "Sanji",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 5,
+      "name": "Tony Tony Chopper",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 6,
+      "name": "Usopp",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 7,
+      "name": "Nico Robin",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 8,
+      "name": "Franky",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 9,
+      "name": "Brook",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "id": 10,
+      "name": "Jinbe",
+      "affiliation": "Piratas Sombrero de paja"
+    },
+    {
+      "name": "Gol D. Roger",
+      "affiliation": "Piratas Roger",
+      "id": 1643672776140
+    }
+  ]
+}

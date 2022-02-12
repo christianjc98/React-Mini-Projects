@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import CrudApp from "./Components/CrudApp";
+import CrudApi from "./Components/CrudApi";
+import SongSearch from "./Components/SongSearch";
+import SelectsAnidados from "./Components/SelectsAnidados";
+import ContactForm from "./Components/ContactForm";
+import Modals from "./Components/Modals";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Ejercicios React</h1>
+      <Modals />
+      <hr></hr>
+      <ContactForm />
+      <hr></hr>
+      <SelectsAnidados />
+      <hr></hr>
+      <SongSearch />
+      <hr></hr>
+      <CrudApi />
+      <hr></hr>
+      <CrudApp />
+      <hr></hr>
+    </>
   );
 }
 
